@@ -2,7 +2,7 @@
 
 A Python-based trading bot for placing orders on Binance Futures Testnet (USDT-M) with proper logging, error handling, and a clean CLI interface.
 
-## Features
+# Features
 
 - Place MARKET and LIMIT orders on Binance Futures Testnet
 - Support both BUY and SELL sides
@@ -13,27 +13,27 @@ A Python-based trading bot for placing orders on Binance Futures Testnet (USDT-M
 - Rich console output with formatted tables
 - Exception handling for API errors and network issues
 
-## Important Note About API Access
+# Important Note About API Access
 
 Due to recent Binance Testnet changes requiring KYC verification, this bot includes a **Mock Mode** that simulates all Binance Futures API responses. This allows you to:
 
-- ✅ Test all functionality without real API keys
-- ✅ See how orders would be placed
-- ✅ Generate realistic log files
-- ✅ Demonstrate the complete code structure
+-  Test all functionality without real API keys
+-  See how orders would be placed
+-  Generate realistic log files
+-  Demonstrate the complete code structure
 
-### To Switch to Real Testnet:
+# To Switch to Real Testnet:
 1. Complete KYC on Binance Testnet (if possible)
 2. Set `USE_MOCK = False` in `client.py`
 3. Add your API keys to `.env` file
 
-## Prerequisites
+# Prerequisites
 
 - Python 3.7+
 - Binance Futures Testnet account
 - API credentials from [Binance Futures Testnet](https://testnet.binancefuture.com/)
 
-## Project Structure
+# Project Structure
 trading_bot/
 ├── bot/
 │ ├── init.py
@@ -48,7 +48,7 @@ trading_bot/
 └── .env # API keys (optional)
 
 
-## Installation
+# Installation
 
 1. **Clone or download** this repository
 2. **Install dependencies**:
@@ -56,33 +56,33 @@ trading_bot/
    pip install -r requirements.txt
 Run the bot (no API keys needed - runs in mock mode)
 
-## Quick Commands
-# MARKET BUY order
+# Quick Commands
+## MARKET BUY order
 python cli.py BTCUSDT BUY MARKET 0.001
 
-# LIMIT SELL order
+## LIMIT SELL order
 python cli.py BTCUSDT SELL LIMIT 0.001 50000
 
-# Check account info
+## Check account info
 python cli.py --info
 
-# View help
+## View help
 python cli.py --help
 
-## Logging
-Each log file records:
-Order placement attempts
-API requests and responses
-Success/failure status
-Error messages (if any)
+# Logging
+-Each log file records:
+-Order placement attempts
+-API requests and responses
+-Success/failure status
+-Error messages (if any)
 
-## Mock Mode
-#The bot runs in mock mode by default, simulating all Binance API responses. This allows:
-#Testing without real API keys
-#Safe experimentation
-#Demonstration of all features
-#To use real Binance Testnet, set USE_MOCK = False in client.py and add your API keys to .env.
+# Mock Mode
+-The bot runs in mock mode by default, simulating all Binance API responses. This allows:
+-Testing without real API keys
+-Safe experimentation
+-Demonstration of all features
+-To use real Binance Testnet, set USE_MOCK = False in client.py and add your API keys to .env.
 
 ## Requirements
-Python 3.7+
-Dependencies listed in requirements.txt
+-Python 3.7+
+-Dependencies listed in requirements.txt
