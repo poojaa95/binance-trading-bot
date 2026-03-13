@@ -1,0 +1,5 @@
+2026-03-13 23:34:35,193 - bot.logging_config - INFO - CLI command: order BTCUSDT SELL LIMIT 0.001 50000
+2026-03-13 23:34:39,731 - bot.orders - INFO - Placing order: BTCUSDT SELL LIMIT
+2026-03-13 23:34:39,732 - bot.client - INFO - MOCK: Placing SELL LIMIT order for 0.001 BTCUSDT
+2026-03-13 23:34:39,732 - bot.client - INFO - MOCK: Order response: {'orderId': 4475808, 'symbol': 'BTCUSDT', 'status': 'NEW', 'side': 'SELL', 'type': 'LIMIT', 'price': '50000.0', 'avgPrice': '0', 'executedQty': '0', 'origQty': '0.001', 'time': 1773425079732}
+2026-03-13 23:34:39,734 - bot.logging_config - INFO - Order command completed successfully

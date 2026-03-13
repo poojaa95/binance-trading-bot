@@ -1,0 +1,5 @@
+2026-03-13 23:25:00,169 - bot.client - INFO - Binance Futures Testnet client initialized
+2026-03-13 23:25:58,718 - bot.orders - INFO - Placing order: BTCUSDT BUY MARKET
+2026-03-13 23:25:58,719 - bot.client - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-13 23:25:59,423 - bot.client - ERROR - Binance API error: APIError(code=-2014): API-key format invalid.
+2026-03-13 23:25:59,423 - bot.orders - ERROR - Failed to place order: APIError(code=-2014): API-key format invalid.
