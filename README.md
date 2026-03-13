@@ -47,7 +47,6 @@ trading_bot/
 ├── README.md # This file
 └── .env # API keys (optional)
 
-text
 
 ## Installation
 
@@ -58,16 +57,16 @@ text
 Run the bot (no API keys needed - runs in mock mode)
 
 ## Quick Commands
-#MARKET BUY order
+# MARKET BUY order
 python cli.py BTCUSDT BUY MARKET 0.001
 
-#LIMIT SELL order
+# LIMIT SELL order
 python cli.py BTCUSDT SELL LIMIT 0.001 50000
 
-#Check account info
+# Check account info
 python cli.py --info
 
-#View help
+# View help
 python cli.py --help
 
 ## Logging
@@ -78,11 +77,11 @@ Success/failure status
 Error messages (if any)
 
 ## Mock Mode
-The bot runs in mock mode by default, simulating all Binance API responses. This allows:
-Testing without real API keys
-Safe experimentation
-Demonstration of all features
-To use real Binance Testnet, set USE_MOCK = False in client.py and add your API keys to .env.
+#The bot runs in mock mode by default, simulating all Binance API responses. This allows:
+#Testing without real API keys
+#Safe experimentation
+#Demonstration of all features
+#To use real Binance Testnet, set USE_MOCK = False in client.py and add your API keys to .env.
 
 ## Requirements
 Python 3.7+
